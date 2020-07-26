@@ -1,0 +1,49 @@
+<head>
+
+    <style>
+        body {
+            /*width: 88mm;*/
+            /*height: 58mm;*/
+            /*border: 1px solid #000;*/
+        }
+
+        .rectangle {
+            width: 100%;
+            height: 100%;
+            /*border: 1px solid #000;*/
+            position: relative;
+            margin: auto;
+            /*margin-top: 5mm;*/
+        }
+        .logo-group {
+            /*Line next to it*/
+            border-right: 1.1mm solid {{ color }};
+            padding-right: 1.5mm;
+
+            /*Size gets determined by the logo*/
+
+            /*Position*/
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-right: 5mm;
+            margin-bottom: 5mm;
+
+        }
+
+        .logo{
+            height: 15mm;
+            /*width: 20mm;*/
+        }
+    </style>
+</head>
+
+<body>
+<div class="rectangle">
+    <div class="logo-group">
+        <img class="logo" src="../logo.svg">
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<head>
+
+    <style>
+        .question {
+            /*Line next to it*/
+            border-left: 1.1mm solid #fc6262;
+            padding-left: 1.5mm;
+
+            /*Font*/
+            /*https://www.dafont.com/letters-for-learners.font*/
+            font-family: "Letters for Learners";
+            font-size: 6mm;
+
+            /*Size*/
+            /* height should wrap content */
+            width: 70%;
+
+            /*Center*/
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+        }
+
+        .rectangle {
+            /*padding: 5mm;*/
+            width: 88mm;
+            height: 58mm;
+            border: 1px solid #000;
+            position: relative;
+            margin: auto;
+            margin-top: 5mm;
+        }
+
+        .card-number {
+            /*Font*/
+            font-family: "FreeSans";
+            font-size: 5mm;
+            color: #E3E3E3;
+
+            /*Position*/
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-right: 5mm;
+            margin-bottom: 5mm;
+        }
+
+        .logo-group {
+            /*Line next to it*/
+            border-right: 1.1mm solid #fc6262;
+            padding-right: 1.5mm;
+
+            /*Size gets determined by the logo*/
+
+            /*Position*/
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-right: 5mm;
+            margin-bottom: 5mm;
+
+        }
+
+        .logo{
+            height: 15mm;
+            /*width: 20mm;*/
+        }
+    </style>
+</head>
+
+<body>
+<div class="rectangle">
+    <div class="question">
+        Als je de keuze had van eender wie op deze wereld, met wie zou je dan eens willen gaan eten?
+    </div>
+    <div class="card-number">
+        1
+    </div>
+</div>
+<div class="rectangle">
+    <div class="logo-group">
+        <img class="logo" src="logo.svg">
+    </div>
+</div>
+</body>
+
+</html>

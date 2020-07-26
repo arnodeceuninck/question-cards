@@ -1,0 +1,70 @@
+<head>
+
+    <style>
+        .question {
+            /*Line next to it*/
+            border-left: 1.1mm solid {{ color }};
+            padding-left: 1.5mm;
+
+            /*Font*/
+            /*https://www.dafont.com/letters-for-learners.font*/
+            font-family: "Letters for Learners";
+            font-size: 7mm;
+
+            /*Size*/
+            /* height should wrap content */
+            width: 70%;
+
+            /*Center*/
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+        }
+
+        body {
+            /*width: 88mm;*/
+            /*height: 58mm;*/
+            /*border: 1px solid #000;*/
+        }
+
+        .rectangle {
+            width: 100%;
+            height: 100%;
+            /*border: 1px solid #000;*/
+            position: relative;
+            margin: auto;
+            /*margin-top: 5mm;*/
+        }
+
+        .card-number {
+            /*Font*/
+            font-family: "FreeSans";
+            font-size: 6mm;
+            color: #E3E3E3;
+
+            /*Position*/
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-right: 5mm;
+            margin-bottom: 5mm;
+        }
+    </style>
+</head>
+
+<body>
+<div class="rectangle">
+    <div class="question">
+        {{ question }}
+    </div>
+    <div class="card-number">
+        {{ number }}
+    </div>
+</div>
+</body>
+
+</html>
